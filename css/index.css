@@ -1,8 +1,3 @@
-/*
-KISSY CSS Reset
-理念：清除和重置是紧密不可分的
-特色：1.适应中文 2.基于最新主流浏览器
-*/
 
 /* 清除内外边距 */
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
@@ -66,22 +61,234 @@ hr {
 
 /* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
 html { overflow-y: scroll; }
+
 /*-------------------------------我是分割线-----------------------------------------*/
-html,body,header,ul{
+
+/*内容开始*/
+html,body{
+    image-rendering: -webkit-optimize-contrast;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.lead_logo{
+    width: 100%;
+    height: 16%;
+}
+.xdf_logo{
+    width: 100%;
+}
+/*左侧菜单栏start*/
+aside{
+    position: fixed;
+    top:0;
+    left:0;
+    display:inline-block;
+    width: 12%;
+    z-index: 1000;
+
+}
+ul{
     width: 100%;
     height: 100%;
 }
-.lead_logo{
-    height: 20%;
-}
-header>ul>li{
+aside>ul>li{
     display:block;
-    width:250px;
-    height: 16%;
-    background-color: #ED4949;
+    width:100%;
+    height: 14%;
+    line-height:14%;
     list-style:none;
     text-align: center;
 }
-header>ul>li>span{
-    line-height:16.6%;
+
+aside>ul>li>span{
+    display:inline-block;
+    height:100%;
+    width: 100%;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 16% 0 16% 0;
+    font-family: "Microsoft YaHei";
 }
+.d2Color{
+    background-color: #d2d2d2;
+}
+aside>ul>li:nth-child(7)>span{
+    width: 100%;
+    height: 100%;
+    padding:0;
+}
+aside>ul{
+    display:inline-block;
+    width: 12%;
+    z-index: 1000;
+    position: fixed;
+    left:0;
+}
+.nativeColor{
+    background-color: #fff;
+    color: #000;
+}
+.activeColor{
+    background-color:#ED4949;
+    color: #ffffff;
+}
+/*左侧菜单栏end*/
+/*乐语弹窗start*/
+
+.leyuu{
+    position: fixed;
+    right:0;
+    top:12%;
+    z-index: 999;
+}
+
+/*乐语弹窗end*/
+
+/*第一栏的fullpage开始*/
+#section0,
+#section1,
+#section2,
+#section3
+{
+    background-size: 88% 110%;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+/* Defining each sectino background and styles
+* --------------------------------------- */
+#section0{
+    background-image: url(../images/志领计划1_1.jpg);
+    /*padding: 50% 0 0 20%;*/
+}
+#section1{
+    background-image: url(../images/志领计划1_2.jpg);
+    padding: 50% 0 0 20%;
+}
+#section2{
+    background-image: url(../images/志领计划1_3.jpg);
+    padding: 50% 0 0 20%;
+}
+#section3{
+    background-image: url(../images/志领计划1_4.jpg);
+    padding: 50% 0 0 20%;
+}
+/*第二栏课程表部分开始*/
+.Content{
+    width: 100%;
+    height: 100%;
+    overflow-y:auto
+}
+.Content img{
+    margin-left:12%;
+    height: 350%;
+    width: 90%;
+
+}
+/*第三栏导师团*/
+.Teacher{
+    width: 100%;
+    height: 100%;
+}
+.Teacher .right{
+    margin-left:12%;
+    width: 88%;
+}
+.Teacher .right .top{
+    margin: 4% 0 0 7%;
+    font-family:"Microsoft Yahei";
+    color: #1f1f1f;
+}
+.Teacher .right .top p:nth-child(1){
+    font-size:55px;
+    line-height:85px;
+}
+.Teacher .right .top p:nth-child(2){
+    font-size:80px;
+    padding-bottom:80px;
+}
+/* 第三部分轮播图*/
+.swiper-container {
+    width: 1408px;
+    height:400px;
+    overflow: hidden;
+}
+.swiper-button-prev{
+    background-image: url(../images/swiper_button_pre.png);
+}
+.swiper-button-next{
+    background-image: url(../images/swiper_button_next.png);
+}
+
+
+ /*第四部分课程图*/
+
+#section4,
+#section5,
+#section6,
+#section7,
+#section8
+{
+    background-size: 88% 110%;
+    /*background-position: right;*/
+    /*background-attachment: fixed;*/
+    background-repeat:no-repeat;
+}
+
+/* Defining each sectino background and styles
+* --------------------------------------- */
+#section4{
+    background-image: url(../images/志领计划4_1.png);
+}
+#section5{
+    background-image: url(../images/志领计划4_2.png);
+}
+#section6{
+    background-image: url(../images/志领计划4_3.png);
+}
+#section7{
+    background-image: url(../images/志领计划4_4.png);
+}
+#section8{
+    background-image: url(../images/志领计划4_5.png);
+}
+
+#container,
+.sections,
+.sec {
+    /*必须，兼容，在浏览器不支持transform属性时，通过改变top/left完成滑动动画*/
+    position: relative;
+    /*必须，关系到单个page能否全屏显示*/
+    height: 100%;
+    left:2%
+
+}
+.sec {
+    /*有背景图时必须，关系到背景图能够全屏显示*/
+    /*background-color: #000;*/
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/*第五部分联系我们*/
+.Contact{
+    /*width: 100%;*/
+    height: 100%;
+    /*overflow-y:auto*/
+    background-image: url(../images/志领计划5.jpg);
+    -webkit-background-size: 88% 100%;
+    background-size: 88% 100%;
+    background-repeat:no-repeat;
+    background-position: 192px 0;
+}
+/*.Contact img{*/
+    /*margin-left:12%;*/
+    /*height: 100%;*/
+    /*width: 88%;*/
+    /*float: right;*/
+    /**/
+/*}*/
