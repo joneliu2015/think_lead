@@ -183,7 +183,19 @@ aside>ul{
     height: 100%;
     overflow-y:auto
 }
-.Content img{
+.Content img:nth-child(1){
+    margin-left:12%;
+    height: 125%;
+    width: 88%;
+
+}
+.Content img:nth-child(2){
+    margin-left:12%;
+    height: 125%;
+    width: 88%;
+
+}
+.Content img:nth-child(3){
     margin-left:12%;
     height: 100%;
     width: 88%;
@@ -197,8 +209,15 @@ aside>ul{
 .Teacher .right{
     margin-left:12%;
     width: 88%;
+    /* height:110%; */
+    background: url('../images/导师团.jpg')  no-repeat;
+    background-size: 90% 120%;
+    overflow: hidden;
 }
-.Teacher .right .top{
+.Teacher .right .teachers{
+    margin-top:20%;
+}
+/* .Teacher .right .top{
     margin: 4% 0 0 7%;
     font-family:"Microsoft Yahei";
     color: #1f1f1f;
@@ -210,7 +229,7 @@ aside>ul{
 .Teacher .right .top p:nth-child(2){
     font-size:80px;
     padding-bottom:80px;
-}
+} */
 /* 第三部分轮播图*/
 .swiper-container {
     width: 1408px;
