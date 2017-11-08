@@ -163,7 +163,7 @@ aside>ul{
 * --------------------------------------- */
 #section0{
     background-image: url(../images/志领计划1_1.jpg);
-    /*padding: 50% 0 0 20%;*/
+    padding: 12% 0 0 28%;
 }
 #section1{
     background-image: url(../images/志领计划1_2.jpg);
@@ -177,6 +177,32 @@ aside>ul{
     background-image: url(../images/志领计划1_4.jpg);
     padding: 50% 0 0 20%;
 }
+
+#section0 .word .line1 span:nth-child(1){
+   font:60px "microsoft Yahei";
+   color: #fff;
+} 
+#section0 .word .line1 span:nth-child(2){
+    font:30px "microsoft Yahei";
+    color: #fff;
+ } 
+ #section0 .word .line2 span:nth-child(1){
+    font:96px "microsoft Yahei";
+    color: #fff;
+ } 
+ #section0 .word .line2 span:nth-child(2){
+    font:46px "microsoft Yahei";
+    color: #fff;
+ } 
+ #section0 .word .line3{
+     
+ }
+ #section0 .word .line3{
+    padding-top: 80px;
+    font:42px "microsoft Yahei";
+    color: #fff;
+ } 
+
 /*第二栏课程表部分开始*/
 .Content{
     width: 100%;
