@@ -162,19 +162,19 @@ aside>ul{
 /* Defining each sectino background and styles
 * --------------------------------------- */
 #section0{
-    background-image: url(../images/志领计划1_1.jpg);
+    background-image: url(../images/zhiling1_1.jpg);
     padding: 12% 0 0 28%;
 }
 #section1{
-    background-image: url(../images/志领计划1_2.jpg);
+    background-image: url(../images/zhiling1_2.jpg);
     padding: 50% 0 0 20%;
 }
 #section2{
-    background-image: url(../images/志领计划1_3.jpg);
+    background-image: url(../images/zhiling1_3.jpg);
     padding: 50% 0 0 20%;
 }
 #section3{
-    background-image: url(../images/志领计划1_4.jpg);
+    background-image: url(../images/zhiling1_4.jpg);
     padding: 50% 0 0 20%;
 }
 
@@ -236,7 +236,7 @@ aside>ul{
     margin-left:12%;
     width: 88%;
     /* height:110%; */
-    background: url('../images/导师团.jpg')  no-repeat;
+    background: url('../images/daoshituan.jpg')  no-repeat;
     background-size: 90% 120%;
     overflow: hidden;
 }
@@ -287,19 +287,19 @@ aside>ul{
 /* Defining each sectino background and styles
 * --------------------------------------- */
 #section4{
-    background-image: url(../images/志领计划4_1.jpg);
+    background-image: url(../images/zhiling4_1.jpg);
 }
 #section5{
-    background-image: url(../images/志领计划4_2.jpg);
+    background-image: url(../images/zhiling4_2.jpg);
 }
 #section6{
-    background-image: url(../images/志领计划4_3.jpg);
+    background-image: url(../images/zhiling4_3.jpg);
 }
 #section7{
-    background-image: url(../images/志领计划4_4.jpg);
+    background-image: url(../images/zhiling4_4.jpg);
 }
 #section8{
-    background-image: url(../images/志领计划4_5.jpg);
+    background-image: url(../images/zhiling4_5.jpg);
 }
 
 #container,
@@ -324,7 +324,7 @@ aside>ul{
     /*width: 100%;*/
     height: 100%;
     /*overflow-y:auto*/
-    background-image: url(../images/志领计划5.jpg);
+    background-image: url(../images/zhiling5.jpg);
     background-size: 88% 100%;
     background-repeat:no-repeat;
     background-position: 100% 0;
